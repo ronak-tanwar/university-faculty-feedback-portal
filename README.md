@@ -1,74 +1,57 @@
 # University Faculty Feedback Portal
 
-A web-based portal designed to help students share feedback about their
-courses and faculty members in an organized way.
+A web-based portal for collecting and managing student feedback about faculty members and courses.
 
 ## Project Overview
 
-The University Faculty Feedback Portal provides a simple interface for
-students to submit feedback and for the institution to review feedback
-results. The project is developed as a college CA1 project using
-front-end web technologies.
+The University Faculty Feedback Portal aims to make academic feedback more organized and accessible. Students can provide feedback about faculty or courses, while authorized staff can review feedback according to the features implemented in the project.
 
 ## Technologies Used
 
--   HTML
--   CSS
--   JavaScript
+- HTML
+- CSS
+- JavaScript
 
 ## Features
 
--   User-friendly interface
--   Faculty/course feedback form
--   Rating and feedback submission interface
--   Form validation using JavaScript
--   Responsive layout for different screen sizes
+- Faculty and course feedback interface
+- Rating and feedback submission
+- Form validation
+- Admin interface, if implemented
+- Responsive layout, if implemented
 
-> Note: Update this list to match the features actually implemented in
-> your project.
+*Update this list to match the actual features of your website.*
 
 ## Getting Started
 
-1.  Download or clone this repository.
-2.  Open the project folder in Visual Studio Code.
-3.  Open `index.html` in a web browser to view the website.
+1. Clone or download this repository.
+2. Open the project folder in Visual Studio Code.
+3. Open `index.html` in a web browser.
 
-If your project uses additional files or folders, keep the folder
-structure intact.
+## CA1 Project Details
 
-## Project Structure
+- **Project Title:** University Faculty Feedback Portal
+- **Team Name:** CodeCrafters
+- **Course Code:** INT108
 
-Example structure (adjust the filenames to match your project):
+### Team Members
 
-``` text
-university-faculty-feedback-portal/
-├── index.html
-├── style.css
-├── script.js
-└── README.md
-```
+| S. No. | Name | Registration Number |
+|---|---|---|
+| 1 | Ronak | 12623630 |
+| 2 | Thansih K | 12612666 |
+| 3 | Fatima Saheer | 12612739 |
 
 ## Deployment
 
-This project can be published using GitHub Pages:
+This project can be deployed using GitHub Pages.
 
-1.  Open the repository on GitHub.
-2.  Go to **Settings** → **Pages**.
-3.  Under **Build and deployment**, choose **Deploy from a branch**.
-4.  Select the `main` branch and the `/ (root)` folder.
-5.  Click **Save** and wait for the published site link to appear.
+1. Open the repository on GitHub.
+2. Go to Settings → Pages.
+3. Select Deploy from a branch.
+4. Select the `main` branch and `/(root)` folder.
+5. Click Save.
 
-## Academic Project
+## Academic Note
 
-This project is prepared for a CA1 project-based assessment. Team
-members should understand the code and be able to explain their
-individual contributions during the viva.
-
-## Team
-
--   Team name: Add your team name
--   Team members: Add names and registration numbers
-
-## License
-
-No license has been specified for this project.
+This project is prepared for a CA1 project-based assessment. All team members should understand the implementation and be ready to explain their contributions during the viva.
