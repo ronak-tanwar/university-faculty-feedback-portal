@@ -52,6 +52,4 @@ This project can be deployed using GitHub Pages.
 4. Select the `main` branch and `/(root)` folder.
 5. Click Save.
 
-## Academic Note
 
-This project is prepared for a CA1 project-based assessment. All team members should understand the implementation and be ready to explain their contributions during the viva.
