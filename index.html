@@ -1,0 +1,38 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Faculty Feedback Portal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Faculty Feedback Portal</h1>
+        <p>Course Evaluation System</p>
+    </header>
+
+    <main class="container">
+        <h2>Student Login</h2>
+        <p>Enter your Student ID to continue.</p>
+
+        <form id="studentLoginForm">
+            <label for="studentId">Student ID</label>
+            <input type="text" id="studentId"
+                   placeholder="Enter your Student ID" required>
+
+            <button type="submit">Continue</button>
+        </form>
+
+        <p id="message" class="message"></p>
+
+        <p class="center">
+            Are you an administrator?
+            <a href="admin-login.html">Admin Login</a>
+        </p>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

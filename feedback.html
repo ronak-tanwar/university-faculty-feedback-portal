@@ -1,0 +1,67 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Submit Feedback</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Faculty Feedback Portal</h1>
+        <p>Student Course Evaluation</p>
+    </header>
+
+    <main class="container">
+        <h2>Submit Feedback</h2>
+        <p>Share your experience with your faculty.</p>
+
+        <form id="feedbackForm">
+            <label for="course">Select Course</label>
+            <select id="course" required>
+                <option value="">Choose a course</option>
+                <option value="Python Programming">Python Programming</option>
+                <option value="Mathematics">Mathematics</option>
+                <option value="Internet Programming">Internet Programming</option>
+                <option value="Environmental Studies">Environmental Studies</option>
+            </select>
+
+            <label for="faculty">Select Faculty</label>
+            <select id="faculty" required>
+                <option value="">Choose a course first</option>
+            </select>
+
+            <label for="rating">Rating</label>
+            <select id="rating" required>
+                <option value="">Choose a rating</option>
+                <option value="5">5 - Excellent</option>
+                <option value="4">4 - Very Good</option>
+                <option value="3">3 - Good</option>
+                <option value="2">2 - Fair</option>
+                <option value="1">1 - Poor</option>
+            </select>
+
+            <label for="comments">Comments</label>
+            <textarea id="comments" rows="4"
+                      placeholder="Write your feedback here"
+                      required></textarea>
+
+            <label class="checkbox-label" for="anonymous">
+                <input type="checkbox" id="anonymous">
+                Submit feedback anonymously
+            </label>
+
+            <button type="submit">Submit Feedback</button>
+        </form>
+
+        <p id="feedbackMessage" class="message"></p>
+
+        <p class="center">
+            <a href="index.html">Back to Student Login</a>
+        </p>
+    </main>
+
+    <script src="feedback.js"></script>
+</body>
+</html>

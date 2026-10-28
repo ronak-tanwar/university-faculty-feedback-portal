@@ -1,0 +1,41 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Faculty Feedback Portal</h1>
+        <p>Administration Panel</p>
+    </header>
+
+    <main class="container">
+        <h2>Admin Login</h2>
+        <p>Sign in to review feedback and course evaluations.</p>
+
+        <form id="adminLoginForm">
+            <label for="adminUsername">Admin Username</label>
+            <input type="text" id="adminUsername"
+                   placeholder="Enter admin username" required>
+
+            <label for="adminPassword">Password</label>
+            <input type="password" id="adminPassword"
+                   placeholder="Enter password" required>
+
+            <button type="submit">Login</button>
+        </form>
+
+        <p id="adminMessage" class="message"></p>
+
+        <p class="center">
+            <a href="index.html">Back to Student Login</a>
+        </p>
+    </main>
+
+    <script src="admin.js"></script>
+</body>
+</html>
