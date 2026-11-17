@@ -32,7 +32,7 @@ The University Faculty Feedback Portal aims to make academic feedback more organ
 
 - **Project Title:** University Faculty Feedback Portal
 - **Team Name:** CodeCrafters
-- **Course Code:** INT108
+- **Course Code:** CSE326
 
 ### Team Members
 
